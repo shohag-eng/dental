@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1202px) {
+        .topbar {
+                   padding:0 20px;
+        }        
+}
+
+@media only screen and (max-width: 974px) {
+        .topbar-parent {
+               
+                display: flex;
+                flex-direction: column-reverse;
+                
+            }
+
+            .topbar-right ul {
+              
+                justify-content: center;
+                
+            }
+            .topbar-left ul {           
+                justify-content: center;
+                margin-top: 20px;
+            }
+          
+
+.banner-content h1,.banner-content p  {
+  
+    display: none;
+}
+.banner-button-2{
+    display: none;
+}
+            
+            .banner-bottom {
+        
+                grid-template-columns: 1fr;
+             max-width: 100%;
+                row-gap: 5px;
+            }
+            .info-content {
+               
+                grid-template-columns: 1fr;
+                
+                row-gap: 5px;
+            }
+
+
+
+h2 {
+
+    font-size: 27px;
+}
+.helth-content {
+ 
+    grid-template-columns: 1fr;
+  
+    row-gap: 10px;
+
+}
+.stuff {
+   
+    padding-left: 34px;
+}
+.container {
+
+    padding: 0 45px;
+    font-size: 47px;
+}
+}
+@media only screen and (max-width: 816px){
+    .trust-section p {
+        
+        font-size: 19px;
+}
+.info-button {
+  
+    display: none
+
+}
+* {
+
+    font-size: 23px;
+}
+
+* {
+    font-size: 10px;
+}
+.topbar-right ul {
+    
+    column-gap: 20px;
+}
+}
+@media only screen and (max-width: 597px){
+        .topbar-left ul{
+                
+        }
+
+}
+@media only screen and (max-width: 975px){
+        .banner-button-1{
+            display: none;
+
+        }
+
+}

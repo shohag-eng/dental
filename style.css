@@ -1,0 +1,629 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{    
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ================================ Topbar Section ========================== */
+.topbar{
+    background-color: black;
+}
+.topbar-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px 0;
+}
+.topbar-parent a{
+    font-size: 10px;
+    color: white;
+}
+.topbar-left ul{
+    display: flex;
+    column-gap: 30px;
+    
+}
+.topbar-left ul li i{
+    color: #61c2ee;
+
+}
+
+
+.topbar-right ul{
+    display: flex;
+    justify-content: end;
+    column-gap: 15px;
+   
+}
+.topbar-parent i{
+    color: #eff1f1;
+    font-size: 20px;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* ============================ banner button============== */
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 48px;
+    color: #005b8b;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.h2{
+    font-size: 48px;
+    color: #feffff;
+    font-weight: 700;
+    padding: 10px 0;
+}
+h3{
+    font-size: 36px;
+    color: #ffff;
+    font-weight: 600;
+}
+h4{
+    font-size: 36px;
+    color: #ffff;
+    font-weight: 600;
+}
+.h4{
+    font-size: 36px;
+    color: #005b8b;
+    font-weight: 600;
+}
+h5{
+    font-size: 24px;
+    color: #555555;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.btn-purple{
+    text-align: center;
+    width: 200px;
+    padding: 15px 0px;
+    background-color: #9b95c9;
+    border: none;
+    border-radius: 50px;  
+    box-shadow: 0px 0px 0px 1px #a9a2aa;  
+}
+.btn-purple:hover{
+    background-color:#0c6181 ;
+
+}
+.btn-blue:hover{
+    background-color:#0c6181 ;
+   
+}
+.btn-purple a{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+.btn-blue{
+    text-align: center;
+    width: 200px;
+    padding: 15px 0px;
+    background-color: #30aad7;
+    border: none;
+    border-radius: 50px; 
+    box-shadow: 0px 0px 0px 1px #a9a2aa;     
+}
+.btn-blue a{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+/* ================================ banner Section ========================== */
+.banner{
+    background-image: url(./img/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.banner-parent{
+   display: flex;
+    justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+}
+
+
+.banner-button-1{
+    display:flex;
+    column-gap: 15px;
+    justify-content: end;
+    
+    
+}
+.banner-content {
+  
+   padding-top: 15%;
+   padding-bottom: 20%;
+    color: white;
+   
+}
+.banner-content h1{
+    font-size: 50px;    
+}
+.banner-content p{
+    padding: 10px 0 20px 0;
+    font-size: 18px;
+}
+.banner-button-2{
+    display: flex;
+    column-gap: 15px;
+}
+.banner-bottom{    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.bb1{
+    background-color: #61c2ee;
+    padding: 50px 0;
+}
+.bb2{
+    background-color: #30aad7;
+    padding: 50px 0;
+}
+.bb3{
+    background-color: #005b8b;
+    padding: 50px 0;
+}
+.bb1:hover{
+    background-color:#0c6181 ;
+}
+.bb2:hover{
+    background-color:#0c6181 ;
+}
+    .bb3:hover{
+        background-color:#77d0f0 ;
+    }
+/* =============================== info Seciton ================= */
+.info-section{
+    padding: 80px 0;
+    text-align: center;
+}
+
+.info-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 35px 0;   
+}
+
+.box1{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #eff9fd;
+}
+.box1:hover{
+    border-radius: ;
+    box-shadow: 2px 1px 20px 2px lightblue;
+    transition: .4s;
+}
+
+.info-button{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* ==========================Technology Section==================== */
+
+.technology{
+    background-image: url(./img/banner2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.technology-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;      
+ 
+    
+}
+
+.technology-contant{
+    padding: 30px;
+   
+}
+
+.technology-contant h6{
+    font-size: 24px;    
+    color: #30aad7;
+    font-weight: 500;
+}
+
+.technology-contant p{
+    font-size: 18px;
+    padding: 15px 0 ;
+    line-height: 1.5;
+}
+
+/* =============================Stuff Section================== */
+
+.stuff{
+    background-image: url(./img/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0 70px 0;
+}
+
+.stuff-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+      
+    align-items: center;   
+}
+
+.stuff-contant{
+    padding-right: 30px;
+}
+
+.stuff-contant h6{
+    font-size: 24px;    
+    color: #30aad7;
+    font-weight: 500;
+}
+
+.stuff-contant p{
+    font-size: 18px;
+    padding: 15px 0 ;
+    line-height: 1.5;
+}
+
+/* ========================= Trust Section ====================== */
+.trust-section{
+    text-align: center;
+    padding: 75px 0 80px 0;
+    background-color: #61c2ee;
+}
+
+.trust-section .btn-purple{
+    text-align: center;
+    width: 200px;
+    padding: 15px 0px;
+    background-color: #fdfdfe;
+    border: none;
+    border-radius: 50px;  
+    margin: 0 auto;    
+}
+.btn-purple:hover{
+    background-color:#0c6181 ;
+
+}
+
+.trust-section p{
+    padding: 15px 0 25px 0;
+    color: white;
+}
+
+.trust-section .btn-purple a{    
+    color: #30aad7;
+}
+/* ========================== Helth Seciton ====================== */
+.helth-section{
+    padding: 95px 0;
+    text-align: center;
+}
+
+.helth-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 90px;
+    padding: 20px 0;   
+}
+
+
+.helth-content-box{
+    text-align: center;
+    padding: 40px 0px;    
+}
+
+.helth-content-box p{
+    font-size: 14px;
+}
+
+.content-box-img{
+    height: 170px;
+    width: 170px;
+    background-color: #eff9fd;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+}
+.content-box-img:hover{
+    scale: 120%;
+}
+
+.helth-button{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.number {
+   
+    height: 30px;
+    width: 30px;
+    background-color: #005b8b;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(40px, -85px);
+}
+.number h6{
+    font-size: 25px;
+    color: white;
+}
+
+/* ==================== Testimonials Seciton ==================== */
+.testimonials{
+    background-color:#30aad7;
+    text-align: center;
+    padding: 70px 0 80px 0;   
+}
+.testimonials-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lesthan {
+    
+    margin: 0 auto;
+
+}
+.geterthan {
+    margin: 0 auto;
+    
+}
+.testimonials-contant-box{
+    padding: 48px 90px 38px 90px;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+.testimonials-contant-box p{
+    font-size: 18px;
+}
+.ana-vandand{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ana-img{
+    width: 100%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.ana-designation{
+    text-align: left;
+}
+.ana-designation h6:first-child{
+    font-size: 16px;
+    color: #555555;
+    font-weight: 700;
+}
+.ana-designation h6:nth-child(2){
+    font-size: 16px;
+    color: #555555;
+    font-weight: 400;
+}
+.quation-1 {
+    position: absolute;
+    top: 9%;
+    left: 4%;
+    transform: translate(50%, 50%);
+}
+.quation-2 {
+    position: absolute;
+    top: 46%;
+    right:6%;
+    transform: translate(0px, 0px);
+}
+
+/* =================== Service Seciton ======================= */
+.service-section{
+    padding: 90px 0;
+}
+.service-section h2{
+    text-align: center;    
+}
+.service-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    line-height: 2.25;
+    
+}
+.service-column p{
+    color: #005b8b;
+    font-size: 18px;
+}
+.service-column i{
+    color: #7dc9f1;
+}
+/* ====================== oral-pain Seciton ===================== */
+.oral-pain{
+    padding: 60px 0 55px 0;
+    background-color: #eff9fd;
+}
+.oral-content{
+    text-align: center;    
+}
+.oral-content p{
+    font-size: 18px;
+}
+.oral-button{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 0;
+}
+
+/* ========================= about-Seciton ====================== */
+.about-section {
+        margin-top: 80px;
+        margin-bottom: -4px;
+    }
+.container-fluid{
+    text-align: center;
+    max-width: 1100px;
+}
+.about-content{
+    text-align: center;
+}
+.about-content p{
+    font-size: 18px;
+    padding: 10px 0;
+}
+.about-content h6{
+   color: #005b8b;
+   font-size: 18px;
+   padding-top: 15px;
+}
+.about img{
+    max-width: 1180px;
+    height: 500px;
+}
+.about img img{
+    width: 100%;
+}
+
+/* =========================== lets see =====================  */
+
+.smile-section{
+    text-align: center;
+    padding: 60px 0;
+    background-color: #005b8b;
+}
+.smile-section p{
+    font-size: 18px;
+    color: white;
+}
+.smile-button{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    column-gap: 15px;
+}
+/* ============================ bottom-Seciton ==================== */
+
+.bottom-section{
+    padding: 50px 0 20px 0;
+    background-color: #222222;
+
+}
+.bottom-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    
+}
+
+.bottom-logo{
+    padding-top: 30px;
+    font-size: 10px;
+    color: #cecece;
+    font-weight: 450;
+    padding-left: 50px;
+
+}
+   
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-details h5{
+    color: white;
+  
+}
+
+.contact-us ul li i{
+    color: #30aad7;
+}
+.contact-us ul li a{
+    font-size: 10px;
+    color: #cecece;
+    line-height: 1.8;
+}
+.hours{
+    padding-right: 120px;
+}
+.hours ul li{
+    line-height: 1.8;
+}
+.hours ul li{
+    font-size: 10px;
+    color: #cecece;
+}
+.media-partner-logo{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
+.media-partner-logo-img{
+width: 40px;
+height: 40px;
+}
+
+/* ===========================footer===================== */
+.bottom-bar-section{
+    padding: 20px;
+    background-color: black;
+}
+.bottom-bar-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-bar-left ul{
+    display: flex;
+    gap: 50px;
+    color: white;
+    font-size: 13px;
+    padding-left: 48px;
+}
+.bottom-bar-left ul li{
+    display: flex;
+}
+.bottom-bar-left ul li p{
+    color: #148bb6;
+    font-weight: 600;
+}
+.bottom-bar-right ul{
+    display: flex;
+    justify-content: end;
+    column-gap: 10px;
+    padding-right: 100px;
+}
+.bottom-bar-right ul li i{
+    color: #eff1f1;
+}
